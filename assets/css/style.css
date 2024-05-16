@@ -1,0 +1,28 @@
+#logo img {
+	max-width: 7%;
+}
+
+#navbar {
+	z-index: 1000; /* Esto asegura que el menú esté por encima de otros elementos, como un carrusel */
+	transition: background-color 0.5s ease;
+}
+
+/* Estilo predeterminado de los enlaces */
+.navbar a {
+	color: white;
+	transition: background-color 0.5s ease; /* Transición suave */
+}
+/* Estilo de los enlaces al pasar el cursor */
+/* .navbar a:hover {
+	background-color: black; 
+} */
+
+/* Estilo de los enlaces al pasar el cursor al desplazarse */
+.navbar.scrolled a:hover {
+	background-color: rgba(0,234,255,0.943); 
+	color: white; 
+}
+
+li {
+	font-size: 1.26em;
+}
