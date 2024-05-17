@@ -9,6 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /* diseño del navbar */
 #logo img {
 	max-width: 7%;
@@ -35,6 +36,7 @@ li {
 	font-size: 1.26em;
 }
 
+
 /* iconos del font awesome */
 .icon1-3 {
     text-align: center;
@@ -42,7 +44,6 @@ li {
     background-color: #328998;
     margin-bottom: 10px;
 }
-    
 .icon2 {
     text-align: center;
     color: white;
@@ -51,15 +52,11 @@ li {
     margin-bottom: 50px;
 }
 
+
 /* titulos principales de la pagina h1 */
 section h1{
     font-family: "Pacifico", cursive!important;
 }
-
-
-
-
-
 
 
 /* animaciones y colores de las cards de destacados */
@@ -79,5 +76,32 @@ section h1{
 }
 .card img {
 	max-height: 190px;
+}
+
+
+/* diseño del footer */
+footer {
+    background-color: rgb(50, 137, 152);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+footer h2{
+    font-family: "Pacifico", cursive!important;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: lightblue;
 }
 
