@@ -1,28 +1,83 @@
+ * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: white;
+    font-family: "Exo", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* diseño del navbar */
 #logo img {
 	max-width: 7%;
 }
-
 #navbar {
-	z-index: 1000; /* Esto asegura que el menú esté por encima de otros elementos, como un carrusel */
+	z-index: 1000;
 	transition: background-color 0.5s ease;
 }
-
-/* Estilo predeterminado de los enlaces */
 .navbar a {
 	color: white;
-	transition: background-color 0.5s ease; /* Transición suave */
+	transition: background-color 0.5s ease;
 }
-/* Estilo de los enlaces al pasar el cursor */
-/* .navbar a:hover {
+.navbar a:hover {
 	background-color: black; 
-} */
-
-/* Estilo de los enlaces al pasar el cursor al desplazarse */
+} 
 .navbar.scrolled a:hover {
 	background-color: rgba(0,234,255,0.943); 
 	color: white; 
 }
-
+.navbar h1{
+    font-family: "Pacifico", cursive!important;
+}
 li {
 	font-size: 1.26em;
 }
+
+/* iconos del font awesome */
+.icon1-3 {
+    text-align: center;
+    color: white;
+    background-color: #328998;
+    margin-bottom: 10px;
+}
+    
+.icon2 {
+    text-align: center;
+    color: white;
+    background-color: #328998;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* titulos principales de la pagina h1 */
+section h1{
+    font-family: "Pacifico", cursive!important;
+}
+
+
+
+
+
+
+
+/* animaciones y colores de las cards de destacados */
+.card {
+	transition: transform 0.5s, background-color 0.5s;
+	opacity: 80%;
+}
+.card:hover {
+	transform: scale(1.05); 
+	opacity: 100%;
+}
+.card-body{
+    background-color: black;
+}
+.card-body p {
+	font-size: 1em;
+}
+.card img {
+	max-height: 190px;
+}
+
